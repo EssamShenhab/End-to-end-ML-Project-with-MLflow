@@ -5,7 +5,7 @@ import logging
 logging.basicConfig(level=logging.INFO, format='[%(asctime)s]:%(message)s')
 
 
-project_name = "ML-Project"
+project_name = "ML_Project"
 
 
 list_of_files = [
