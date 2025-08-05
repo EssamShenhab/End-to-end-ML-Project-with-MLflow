@@ -1,0 +1,15 @@
+artifact_uri: file:///media/essam/01DBE776362F5370/Courses/End-to-End%20MLOps%20Projects/Krish/End-to-end-ML-Project-with-MLflow/mlruns/0/e946517beff7472387e2c217c1dd1b35/artifacts
+end_time: 1754435640472
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e946517beff7472387e2c217c1dd1b35
+run_name: amusing-rook-616
+run_uuid: e946517beff7472387e2c217c1dd1b35
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754435637408
+status: 3
+tags: []
+user_id: essam

@@ -79,16 +79,6 @@ with mlflow.start_run():
     mlflow.log_metric('metric name', 1)
 ```
 
-### Step 2: Set environment variables
-
-To use DAGsHub as your MLflow backend, export the following:
-
-```bash
-export MLFLOW_TRACKING_URI=https://dagshub.com/EssamShenhab/End-to-end-ML-Project-with-MLflow
-export MLFLOW_TRACKING_USERNAME=EssamShenhab
-export MLFLOW_TRACKING_PASSWORD=<your-access-token>
-```
-
 ---
 
 ## Deploy to AWS EC2

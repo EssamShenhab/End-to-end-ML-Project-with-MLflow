@@ -1,0 +1,15 @@
+artifact_uri: file:///media/essam/01DBE776362F5370/Courses/End-to-End%20MLOps%20Projects/Krish/End-to-end-ML-Project-with-MLflow/mlruns/0/40edc24b3c5b4141b3749fa1786f938b/artifacts
+end_time: 1754435139071
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 40edc24b3c5b4141b3749fa1786f938b
+run_name: loud-lark-887
+run_uuid: 40edc24b3c5b4141b3749fa1786f938b
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754435136190
+status: 3
+tags: []
+user_id: essam

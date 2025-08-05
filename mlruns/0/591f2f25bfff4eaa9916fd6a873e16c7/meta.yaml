@@ -1,0 +1,15 @@
+artifact_uri: file:///media/essam/01DBE776362F5370/Courses/End-to-End%20MLOps%20Projects/Krish/End-to-end-ML-Project-with-MLflow/mlruns/0/591f2f25bfff4eaa9916fd6a873e16c7/artifacts
+end_time: 1754435389856
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 591f2f25bfff4eaa9916fd6a873e16c7
+run_name: amazing-perch-358
+run_uuid: 591f2f25bfff4eaa9916fd6a873e16c7
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754435386969
+status: 3
+tags: []
+user_id: essam

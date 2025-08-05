@@ -1,0 +1,15 @@
+artifact_uri: file:///media/essam/01DBE776362F5370/Courses/End-to-End%20MLOps%20Projects/Krish/End-to-end-ML-Project-with-MLflow/mlruns/0/b747dee04f834e14867c02ba4cdeb9c0/artifacts
+end_time: 1754434766535
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: b747dee04f834e14867c02ba4cdeb9c0
+run_name: wise-newt-915
+run_uuid: b747dee04f834e14867c02ba4cdeb9c0
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754434763676
+status: 3
+tags: []
+user_id: essam
