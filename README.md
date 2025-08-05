@@ -1,4 +1,4 @@
-# End-to-end-ML-Project-with-MLflow 
+# End-to-end-Machine-Learning-Project-with-MLflow
 
 
 ## Workflows
@@ -18,4 +18,92 @@
 # How to run?
 ### STEPS:
 
-Clone the repository
+### Installation
+
+```bash
+git clone https://github.com/EssamShenhab/End-to-end-ML-Project-with-MLflow.git
+cd End-to-end-ML-Project-with-MLflow
+pip install -r requirements.txt
+```
+
+---
+
+## Run Locally
+
+```bash
+python app.py
+```
+
+You can also run the main pipeline:
+
+```bash
+python main.py
+```
+
+---
+
+## MLflow Tracking (Local)
+
+##### Start the MLflow UI locally:
+
+```bash
+mlflow ui
+```
+
+Then go to:
+
+```
+http://127.0.0.1:5000
+```
+
+---
+
+## MLflow with DAGsHub
+
+### Step 1: Initialize DAGsHub
+
+Inside your Python script (e.g., `main.py`), add:
+
+```python
+import dagshub
+dagshub.init(repo_owner='EssamShenhab', repo_name='End-to-end-ML-Project-with-MLflow', mlflow=True)
+```
+
+Then:
+
+```python
+import mlflow
+
+with mlflow.start_run():
+    mlflow.log_param('parameter name', 'value')
+    mlflow.log_metric('metric name', 1)
+```
+
+### Step 2: Set environment variables
+
+To use DAGsHub as your MLflow backend, export the following:
+
+```bash
+export MLFLOW_TRACKING_URI=https://dagshub.com/EssamShenhab/End-to-end-ML-Project-with-MLflow
+export MLFLOW_TRACKING_USERNAME=EssamShenhab
+export MLFLOW_TRACKING_PASSWORD=<your-access-token>
+```
+
+---
+
+## Deploy to AWS EC2
+
+1. Create an EC2 instance.
+2. SSH into the instance:
+
+   ```bash
+   ssh -i your-key.pem ec2-user@your-ec2-public-ip
+   ```
+3. Clone the repo and install requirements.
+4. Run your script or app:
+
+   ```bash
+   python main.py
+   ```
+
+---

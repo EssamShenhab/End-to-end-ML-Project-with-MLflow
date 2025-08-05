@@ -1,0 +1,15 @@
+artifact_uri: file:///media/essam/01DBE776362F5370/Courses/End-to-End%20MLOps%20Projects/Krish/End-to-end-ML-Project-with-MLflow/mlruns/0/29081b68e098453e8a84e8f3612b54bc/artifacts
+end_time: 1754433747983
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: 29081b68e098453e8a84e8f3612b54bc
+run_name: fun-shrew-982
+run_uuid: 29081b68e098453e8a84e8f3612b54bc
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754433744975
+status: 3
+tags: []
+user_id: essam

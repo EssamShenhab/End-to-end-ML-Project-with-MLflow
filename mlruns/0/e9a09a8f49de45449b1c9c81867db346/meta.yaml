@@ -1,0 +1,15 @@
+artifact_uri: file:///media/essam/01DBE776362F5370/Courses/End-to-End%20MLOps%20Projects/Krish/End-to-end-ML-Project-with-MLflow/mlruns/0/e9a09a8f49de45449b1c9c81867db346/artifacts
+end_time: 1754434535112
+entry_point_name: ''
+experiment_id: '0'
+lifecycle_stage: active
+run_id: e9a09a8f49de45449b1c9c81867db346
+run_name: crawling-steed-448
+run_uuid: e9a09a8f49de45449b1c9c81867db346
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1754434532352
+status: 3
+tags: []
+user_id: essam
