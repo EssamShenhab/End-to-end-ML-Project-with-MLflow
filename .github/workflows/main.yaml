@@ -1,0 +1,42 @@
+name: workflow
+
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - 'README.md'
+
+jobs:
+  integration:
+    name: Continuous Integration
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Lint code
+        run: echo "Linting code..."  # You can add actual linting later
+
+      - name: Basic check
+        run: echo "Running basic validation..."
+
+  build-and-run:
+    name: Continuous Delivery
+    needs: integration
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v3
+
+      - name: Set up Docker
+        uses: docker/setup-buildx-action@v3
+
+      - name: Build Docker image
+        run: docker build -t my-app:latest .
+
+      - name: Run Docker container
+        run: docker run -d -p 8080:8080 --name=my-app-container my-app:latest
+
+      - name: Confirm Container is Running
+        run: docker ps -a
